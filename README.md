@@ -68,8 +68,8 @@ Un'applicazione web innovativa che unisce **videochiamate in tempo reale** e **m
 ## 📦 Installazione
 
 ```bash
-git clone https://github.com/tuo-utente/nome-repo.git
-cd nome-repo
+git clone https://github.com/WebRTC-Projects-Unina/WebRTC_Mini_Games.git
+cd WebRTC_Mini_Games.git
 npm install
 npm run build (frontend)
 node server.js (backend)
@@ -80,4 +80,3 @@ node server.js (backend)
 ## ✨ Autore
 
 Sviluppato con ❤️ da Erika Morelli e Luca Pisani
-```
