@@ -70,13 +70,20 @@ Un'applicazione web innovativa che unisce **videochiamate in tempo reale** e **m
 ```bash
 git clone https://github.com/WebRTC-Projects-Unina/WebRTC_Mini_Games.git
 cd WebRTC_Mini_Games.git
-npm install
+npm install (./frontend)
+npm install (./backend)
 npm run build (frontend)
+-- in caso di errore vite lanciare il comando: npm install vite
 node server.js (backend)
 ```
 
+In caso di erorri o problemi con i moduli node si consiglia di eliminare le cartelle node modules e rilanciare i comandi npm install
 ---
 
 ## ✨ Autore
 
 Sviluppato con ❤️ da Erika Morelli e Luca Pisani
+---
+
+## Documentazione
+E' possibile consultare il file docPurpleLeopard.pdf per ulteriori informazioni sul progetto!
