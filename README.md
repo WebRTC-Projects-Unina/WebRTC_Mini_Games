@@ -76,6 +76,12 @@ npm run build (frontend)
 -- in caso di errore vite lanciare il comando: npm install vite
 node server.js (backend)
 ```
+In caso si volesse testare la comunicazione tra dispositivi differenti è possibile usare il servizio ngrok:
+1. Registrarsi al sito ed ottenere il proprio token di configurazione
+2. Configurare ngrok con le proprie credenziali sul proprio sistema (sul quale il server verrà avviato)
+3. Lanciare il file ngrok.exe presente nella directory ../backend/ del progetto
+4. Lanciare il comando: ngrok http 4000
+5. Diffondere il link di reindirizzamento fornito dal servizio ngrok avviato
 
 In caso di erorri o problemi con i moduli node si consiglia di eliminare le cartelle node modules e rilanciare i comandi npm install
 ---
