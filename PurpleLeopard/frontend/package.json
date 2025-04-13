@@ -1,7 +1,7 @@
 {
   "name": "webrtc-react-app",
   "version": "1.0.0",
-  "description": "WebRTC videochat with simple-peer and React",
+  "description": "WebRTC videochat with React",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
